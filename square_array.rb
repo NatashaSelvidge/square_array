@@ -1,10 +1,9 @@
 
 
-def square_array(array)
-  new_array = [] 
-array.each do |num|
-new_array.push num ** 2
-end
-new_array
-end
-
+def square_array(numbers)
+  arr = []
+  numbers.each do |num|
+    arr << num ** 2
+  end 
+ arr
+end  
